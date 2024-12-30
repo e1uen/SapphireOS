@@ -55,7 +55,7 @@ if "%DEVICE_TYPE%" == "LAPTOP" (
     Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wmiacpi" /v "Start" /t REG_DWORD /d "2" /f >nul 2>&1
     Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling" /v "PowerThrottlingOff" /t REG_DWORD /d "0" /f
     powercfg /setactive 381b4222-f694-41f0-9685-ff5bb260df2e
-	cls
+    cls
 )
 ) else (
     Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DisplayEnhancementService" /v "Start" /t REG_DWORD /d "4" /f >nul 2>&1
@@ -136,7 +136,7 @@ C:\PostInstall\Tweaks\DevManView.exe /disable "Programmable Interrupt Controller
 C:\PostInstall\Tweaks\DevManView.exe /disable "Numeric Data Processor" > NUL 2>&1
 C:\PostInstall\Tweaks\DevManView.exe /disable "Communications Port (COM1)" > NUL 2>&1
 C:\PostInstall\Tweaks\DevManView.exe /disable "Microsoft RRAS Root Enumerator" > NUL 2>&1
-C:\PostInstall\Tweaks\DevManView.exe /disable "Micosoft GS Wavetable Synth" > NUL 2>&1
+C:\PostInstall\Tweaks\DevManView.exe /disable "Microsoft GS Wavetable Synth" > NUL 2>&1
 cls
 
 Echo "Changing fsutil behaviors"
