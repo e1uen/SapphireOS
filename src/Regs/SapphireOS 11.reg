@@ -1693,7 +1693,7 @@ Windows Registry Editor Version 5.00
 "UxOption"=dword:00000000
 "InsiderProgramEnabled"=dword:00000000
 "PendingRebootStartTime"="2021-10-05T16:02:16Z
-PauseFeatureUpdatesStartTime"="2021-10-05T16:02:16Z"
+"PauseFeatureUpdatesStartTime"="2021-10-05T16:02:16Z"
 "PauseQualityUpdatesStartTime"="2021-10-05T16:02:16Z"
 "PauseUpdatesExpiryTime"="2050-01-01T10:38:56Z"
 "PauseFeatureUpdatesEndTime"="2050-01-01T10:38:56Z"
